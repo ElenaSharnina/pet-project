@@ -1,0 +1,5 @@
+.footer__zone_type_copy {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

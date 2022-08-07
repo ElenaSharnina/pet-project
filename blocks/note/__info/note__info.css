@@ -1,0 +1,15 @@
+.note__info {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    max-width: 896px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .note__info {
+      padding-left: 7px;
+      padding-right: 7px;
+    }
+}

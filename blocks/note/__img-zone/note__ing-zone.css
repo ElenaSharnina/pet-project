@@ -1,0 +1,11 @@
+.note__img-zone {
+  object-fit: cover;
+  box-shadow: -14px -14px 20px rgba(240,240,240, 0.05), 14px 14px 20px rgba(240,240,240, 0.05);
+}
+
+@media screen and (max-width: 1024px) {
+  .note__img-zone {
+    background-position: center;
+    box-shadow: none;
+  }
+}

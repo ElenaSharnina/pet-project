@@ -1,0 +1,14 @@
+.logo {
+  font-size: 32px;
+  line-height: 38px;
+  color: white; 
+  font-weight: 900;  
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .logo {
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-weight: 800;
+  }
+}

@@ -1,0 +1,15 @@
+.banner__teg {
+  color: rgb(238, 231, 231);
+	font-size: 32px;
+	text-align: 42px;
+	font-weight: bold;
+  padding: 0;
+	margin: 20px;
+}
+@media screen and (min-width: 320px) and (max-width: 650px) {
+	.banner__teg {
+    font-size: 18px;
+    line-height: 20px;
+    margin: 10px;
+  }
+}

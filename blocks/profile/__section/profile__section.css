@@ -1,0 +1,16 @@
+.profile__section {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 768px) {
+  .profile__section {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 650px) {
+  .profile__section {
+    margin-bottom: 5px;
+  }
+}

@@ -1,0 +1,18 @@
+.gallery__add-button {
+  position: absolute;
+  top: 50px;
+  right: 0px;
+  color: white;
+  font-size: 22px;
+  font-weight: bolder;
+  border: 2px solid white;
+  background-color: transparent;
+  width: 180px;
+  height: 40px;
+  border-radius: 5px;
+  box-shadow: white;
+}
+.gallery__add-button:hover {   
+  opacity: 0.6;
+  cursor: pointer;
+}

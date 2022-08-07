@@ -1,0 +1,15 @@
+.note__number {
+  position: absolute;
+  top: -100px;
+  left: -50px;
+  color: white;
+  opacity: 0.3;
+  font-size: 150px;
+  font-weight: bold;
+  text-shadow: -14px -14px 20px rgba(240,240,240, 0.1);
+}
+@media screen and (max-width: 768px) {
+  .note__number {
+    left:0;
+  }
+}

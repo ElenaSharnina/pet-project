@@ -1,0 +1,23 @@
+.page {
+  background-image: linear-gradient(315deg, rgb(20 47 88 / 10%) 30%, #000000 100%), url(../../images/sports-sunlight-sunset-nature-bicycle-vehicle-evening-morning-cycling-Downhill-mountain-biking-mountain-sports-equipment-mountain-bike-extreme-sport-freeride-cycle-sport-mountain.jpg);
+  margin: 0;
+  background-repeat: no-repeat;
+  background-position: top;
+  
+  font-family: 'Inter', Arial, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  padding: 0 auto;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+body {
+  background-color: black;
+  
+  position: relative;
+ 
+}

@@ -1,0 +1,12 @@
+.anchor__teg {
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  margin: 15px auto 15px 7px;
+}
+.anchor__teg:hover {
+  opacity: 0.5;
+}
+.anchor__teg:visited {
+  color: #FBD784;
+}

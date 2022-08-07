@@ -1,0 +1,9 @@
+.footer__zone_type_blog {
+  margin-right: 150px;
+}
+@media screen and (max-width: 1024px) {
+  .footer__zone_type_blog
+   {
+    margin-right: 75px;
+  }
+}

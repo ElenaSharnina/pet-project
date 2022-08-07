@@ -1,0 +1,19 @@
+.notes {
+  display: grid;
+  gap: 200px;
+  padding: 0 100px 200px 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .notes {
+    gap: 100px;
+    padding: 0 10px 150px 10px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 850px) {
+  .notes {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+  }
+}

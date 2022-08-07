@@ -1,0 +1,9 @@
+.header__acc {
+    display: flex;
+    flex-direction: row;
+}
+@media screen and (min-width: 320px) and (max-width: 650px) {
+    .header__acc {
+        padding-top: 6px;
+    }
+}

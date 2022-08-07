@@ -1,0 +1,14 @@
+.intro__capture {
+  font-size: 18px;
+  line-height: 22px;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 650px) {
+  .intro__capture{
+    font-size: 14px;
+    margin-left: 7px;
+  }
+}

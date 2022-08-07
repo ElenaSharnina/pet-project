@@ -1,0 +1,19 @@
+.element__foto-zone {
+  width: 100%;
+  min-height: 180px;
+  overflow: hidden;
+  position: relative;
+  background-color:  #242323;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+@media screen and (min-width: 320px) and (max-width: 650px) {
+  .element__foto-zone {
+    min-height: 100px;
+  }
+}
+@media screen and (min-width: 650px) and (max-width: 1024px) {
+  .element__foto-zone {
+    min-height: 120px;
+  }
+}

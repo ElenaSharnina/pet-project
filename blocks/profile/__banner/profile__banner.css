@@ -1,0 +1,24 @@
+.profile__banner {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  background-color: #242323;
+  width: 80%;
+  min-height: 330px;
+  border-radius: 10px;
+  padding: 34px 36px 37px 34px;
+  box-shadow: 0 0 25px rgba(0, 0 , 0, 0.15);
+  z-index: 2;
+  
+  margin-right: 80px;
+  display: none;
+  position: relative;
+}
+@media screen  and (max-width: 650px) {
+  .profile__banner {
+    width: 100%;
+    min-height: 150px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 10px;
+  }
+}

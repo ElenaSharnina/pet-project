@@ -1,0 +1,20 @@
+.gallery {
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-top: 140px;
+    padding-bottom: 80px;
+    display: grid;
+    grid-template-columns: 55% 45%;
+    max-width: 1462px;
+    position: relative;
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 1024px) {
+    .gallery {
+      margin-right: 7px;
+      margin-left: 7px;
+      padding-top: 100px;
+      grid-template-columns: 35% 65%;
+      max-height: auto;
+    }
+  }

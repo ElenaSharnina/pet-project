@@ -1,0 +1,17 @@
+.element__name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: white;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 150px;
+  margin: 0;
+}
+@media screen and (min-width: 320px) and (max-width: 900px) {
+  .element__name {
+    font-weight: 400;
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,10 @@
+.banner__image {
+ position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  border-radius: 10px;
+  opacity: 0.05;
+}

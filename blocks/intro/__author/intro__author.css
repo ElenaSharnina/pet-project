@@ -1,0 +1,15 @@
+.intro__author {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 800;
+  color: #fbd784;
+  letter-spacing: 6px;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (min-width: 320px) and (max-width: 650px) {
+  .intro__author {
+    font-size: 15px;
+    margin-left: 7px;
+  }
+}

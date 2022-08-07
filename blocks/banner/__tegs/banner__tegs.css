@@ -1,0 +1,13 @@
+.banner__tegs {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 0;
+}
+@media screen and (min-width: 320px) and (max-width: 650px) {
+  .banner__tegs {
+    padding: 5px;
+  }
+}
